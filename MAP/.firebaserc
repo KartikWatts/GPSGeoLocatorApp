@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "geolocation-e1e59",
+    "staging": "geolocation-e1e59"
+  }
+}

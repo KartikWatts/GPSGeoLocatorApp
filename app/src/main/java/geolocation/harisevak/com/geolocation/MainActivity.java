@@ -18,11 +18,22 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity extends AppCompatActivity {
+
+    FirebaseDatabase database;
+    DatabaseReference myRef;
+    DatabaseReference myRef1;
 
     private Button btnGetLoc;
     private TextView txt;
+    private Button btnStop;
     public static int i=1;
+    public static int status=1;
+    public Location l;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,22 +41,45 @@ public class MainActivity extends AppCompatActivity {
 
         txt= (TextView)findViewById(R.id.txt);
         btnGetLoc = (Button) findViewById(R.id.btnGetLoc);
+        btnStop= (Button) findViewById(R.id.btnStop);
+
         ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION},123);
 
         btnGetLoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                status=1;
                 GPStracker g= new GPStracker(getApplicationContext());
-                Location l =g.getLocation();
+                    while(status!=0){
+                        try {
+                            Thread.sleep(5000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        l =g.getLocation();
 
-                if(l!=null){
-                    double lat= l.getLatitude();
+                        double lat= l.getLatitude();
                     double lon=l.getLongitude();
                     Toast.makeText(getApplicationContext(),"LAT: "+ lat+ "\n LON: "+ lon,Toast.LENGTH_LONG).show();
                     txt.append("["+i+"]"+"\nLAT: "+ lat+ "\n LON: "+ lon+"\n__________________________\n");
-                    i++;
+                    database= FirebaseDatabase.getInstance();
+                    myRef= database.getReference("GPS/location"+i+"/latitude");
+                    myRef.setValue(lat);
+                    myRef1= database.getReference("GPS/location"+i+"/longitude");
+                    myRef1.setValue(lon);
+                        i++;
+
+                        btnStop.setOnClickListener(new View.OnClickListener(){
+
+                            @Override
+                            public void onClick(View view) {
+                                status=0;
+                            }
+                        });
+
                 }
             }
         });
+
     }
 }

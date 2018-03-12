@@ -12,13 +12,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:text="@string/location"
+        />
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Stop Tracking"
         />
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnGetLoc"
+        android:layout_below="@id/btnStop"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         >
@@ -35,5 +43,6 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             />
+
     </ScrollView>
 </RelativeLayout>

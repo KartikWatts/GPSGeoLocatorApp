@@ -1,0 +1,155 @@
+[debug] [2018-03-08T12:17:21.768Z] ----------------------------------------------------------------------
+[debug] [2018-03-08T12:17:21.771Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-08T12:17:21.771Z] CLI Version:   3.17.4
+[debug] [2018-03-08T12:17:21.772Z] Platform:      win32
+[debug] [2018-03-08T12:17:21.772Z] Node Version:  v6.9.5
+[debug] [2018-03-08T12:17:21.774Z] Time:          Thu Mar 08 2018 17:47:21 GMT+0530 (India Standard Time)
+[debug] [2018-03-08T12:17:21.774Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-08T12:17:21.854Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-08T12:17:21.854Z] > authorizing via signed-in user
+[debug] [2018-03-08T12:17:21.869Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-08T12:17:21.869Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/0P7Kbf1yNeCP-rGRCV18e2btQIFL9SP1LrYgUdsGucBwKkGOgKyISdo3kUyVcjee',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Mar 08 2018 17:47:21 GMT+0530 (India Standard Time)
+[debug] [2018-03-08T12:17:22.562Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T12:17:22.734Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/geolocation-e1e59  
+  
+ Thu Mar 08 2018 17:47:22 GMT+0530 (India Standard Time)
+[debug] [2018-03-08T12:17:25.991Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T12:17:25.991Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/geolocation-e1e59/tokens  
+  
+ Thu Mar 08 2018 17:47:25 GMT+0530 (India Standard Time)
+[debug] [2018-03-08T12:17:28.009Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Projects\AndroidApps\AndroidStudio\GeoLocation\MAP'...
+[info] 
+[debug] [2018-03-08T12:17:28.685Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/geolocation-e1e59  
+  
+ Thu Mar 08 2018 17:47:28 GMT+0530 (India Standard Time)
+[debug] [2018-03-08T12:17:30.509Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-08T12:17:30.525Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/799171215760/clients/_:getWebAppConfig  
+  
+ Thu Mar 08 2018 17:47:30 GMT+0530 (India Standard Time)
+[debug] [2018-03-08T12:17:31.497Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-10T07:31:31.578Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T07:31:31.578Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-10T07:31:31.594Z] CLI Version:   3.17.4
+[debug] [2018-03-10T07:31:31.594Z] Platform:      win32
+[debug] [2018-03-10T07:31:31.594Z] Node Version:  v6.9.5
+[debug] [2018-03-10T07:31:31.613Z] Time:          Sat Mar 10 2018 13:01:31 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T07:31:31.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-10T07:31:31.820Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-10T07:31:31.820Z] > authorizing via signed-in user
+[debug] [2018-03-10T07:31:31.820Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-10T07:31:31.820Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/0P7Kbf1yNeCP-rGRCV18e2btQIFL9SP1LrYgUdsGucBwKkGOgKyISdo3kUyVcjee',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Mar 10 2018 13:01:31 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T07:31:32.445Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T07:31:32.570Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/geolocation-e1e59  
+  
+ Sat Mar 10 2018 13:01:32 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T07:31:35.426Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T07:31:35.426Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/geolocation-e1e59/tokens  
+  
+ Sat Mar 10 2018 13:01:35 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T07:31:37.408Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Projects\AndroidApps\AndroidStudio\GeoLocation\MAP'...
+[info] 
+[debug] [2018-03-10T07:31:37.424Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/geolocation-e1e59  
+  
+ Sat Mar 10 2018 13:01:37 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T07:31:39.325Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T07:31:39.341Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/799171215760/clients/_:getWebAppConfig  
+  
+ Sat Mar 10 2018 13:01:39 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T07:31:40.410Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-10T08:14:45.368Z] ----------------------------------------------------------------------
+[debug] [2018-03-10T08:14:45.373Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-10T08:14:45.378Z] CLI Version:   3.17.4
+[debug] [2018-03-10T08:14:45.378Z] Platform:      win32
+[debug] [2018-03-10T08:14:45.378Z] Node Version:  v6.9.5
+[debug] [2018-03-10T08:14:45.398Z] Time:          Sat Mar 10 2018 13:44:45 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T08:14:45.398Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-10T08:14:45.613Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-10T08:14:45.613Z] > authorizing via signed-in user
+[debug] [2018-03-10T08:14:45.623Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/geolocation-e1e59  
+  
+ Sat Mar 10 2018 13:44:45 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T08:14:48.147Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T08:14:48.152Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/geolocation-e1e59/tokens  
+  
+ Sat Mar 10 2018 13:44:48 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T08:14:50.060Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Projects\AndroidApps\AndroidStudio\GeoLocation\MAP'...
+[info] 
+[debug] [2018-03-10T08:14:50.077Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/geolocation-e1e59  
+  
+ Sat Mar 10 2018 13:44:50 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T08:14:52.087Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-10T08:14:52.092Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/799171215760/clients/_:getWebAppConfig  
+  
+ Sat Mar 10 2018 13:44:52 GMT+0530 (India Standard Time)
+[debug] [2018-03-10T08:14:53.112Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-12T06:01:06.169Z] ----------------------------------------------------------------------
+[debug] [2018-03-12T06:01:06.226Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-12T06:01:06.228Z] CLI Version:   3.17.4
+[debug] [2018-03-12T06:01:06.228Z] Platform:      win32
+[debug] [2018-03-12T06:01:06.228Z] Node Version:  v6.9.5
+[debug] [2018-03-12T06:01:06.283Z] Time:          Mon Mar 12 2018 11:31:06 GMT+0530 (India Standard Time)
+[debug] [2018-03-12T06:01:06.284Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-12T06:01:06.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-12T06:01:06.505Z] > authorizing via signed-in user
+[debug] [2018-03-12T06:01:06.510Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-12T06:01:06.510Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/0P7Kbf1yNeCP-rGRCV18e2btQIFL9SP1LrYgUdsGucBwKkGOgKyISdo3kUyVcjee',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 12 2018 11:31:06 GMT+0530 (India Standard Time)
+[debug] [2018-03-12T06:01:07.477Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T06:01:07.671Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/geolocation-e1e59  
+  
+ Mon Mar 12 2018 11:31:07 GMT+0530 (India Standard Time)
+[debug] [2018-03-12T06:01:10.154Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T06:01:10.157Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/geolocation-e1e59/tokens  
+  
+ Mon Mar 12 2018 11:31:10 GMT+0530 (India Standard Time)
+[debug] [2018-03-12T06:01:12.090Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\Projects\AndroidApps\AndroidStudio\GeoLocation\MAP'...
+[info] 
+[debug] [2018-03-12T06:01:12.134Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/geolocation-e1e59  
+  
+ Mon Mar 12 2018 11:31:12 GMT+0530 (India Standard Time)
+[debug] [2018-03-12T06:01:13.946Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-12T06:01:13.946Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/799171215760/clients/_:getWebAppConfig  
+  
+ Mon Mar 12 2018 11:31:13 GMT+0530 (India Standard Time)
+[debug] [2018-03-12T06:01:14.923Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

@@ -31,7 +31,7 @@ public class GPStracker implements LocationListener {
         LocationManager lm= (LocationManager)context.getSystemService(Context.LOCATION_SERVICE);
         boolean isGpsEnabled= lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
         if(isGpsEnabled){
-            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,this);
+            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER,5000,0,this);
             Location l= lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
             return l;
         }else{

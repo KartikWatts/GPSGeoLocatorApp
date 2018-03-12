@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "799171215760",
+    "firebase_url": "https://geolocation-e1e59.firebaseio.com",
+    "project_id": "geolocation-e1e59",
+    "storage_bucket": "geolocation-e1e59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799171215760:android:686913fb9265bd83",
+        "android_client_info": {
+          "package_name": "geolocation.harisevak.com.geolocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799171215760-s488085g0g3ul1jal7gp6rtqtqa35oni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "geolocation.harisevak.com.geolocation",
+            "certificate_hash": "b74e0a46f0dbd10779fe7aa1c21f895e32b4103e"
+          }
+        },
+        {
+          "client_id": "799171215760-2a3om4rp21nnbrs6mle751p90oie7fan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd5nT4CUsR7J_6luPdAVPleoAHEvgyLK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799171215760-2a3om4rp21nnbrs6mle751p90oie7fan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
